@@ -12,7 +12,7 @@ process = subprocess.Popen([
 file_path = 'clean.csv'
 data = pd.read_csv(file_path)
 
-st.title("Football Statistics Information System")
+st.title("23/24 Recommendation System")
 st.write("Select a club for a Recommendation")
 
 
