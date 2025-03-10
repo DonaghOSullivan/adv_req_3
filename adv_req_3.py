@@ -2,11 +2,11 @@ import streamlit as st
 import pandas as pd
 import subprocess
 
-process = subprocess.Popen([
-    "streamlit", "run", "adv_req_3.py",
-    "--server.port", "707",
-    "--server.headless", "true"
-])
+#process = subprocess.Popen([
+#    "streamlit", "run", "adv_req_3.py",
+#    "--server.port", "707",
+#    "--server.headless", "true"
+#])
 
 # Load Data
 file_path = 'clean.csv'
